@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Links from "./Links";
-import { Menu } from "lucide-react";
+import { Menu, X  } from "lucide-react";
+
 const navigationData = [
   {
     id: 1,
@@ -37,8 +38,8 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between mx-10 ">
           <span className="flex " onClick={()=>setOpen(!open)}>
-              {open ? 'open' : 'close'}
-        <Menu className="md:hidden " />
+              {open ? <X className="md:hidden "></X> : <Menu className="md:hidden " />}
+        
         <h3 className="ml-4">My Navbar</h3>
       </span>
       <ul className="flex ">
