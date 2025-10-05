@@ -16,6 +16,7 @@
     "id": 2,
     "name": "Premium Plan",
     "price": 45,
+    "popular": true,
     "duration": "per month",
     "description": "Ideal for fitness enthusiasts looking for extended hours and group classes.",
     "features": [
