@@ -7,6 +7,7 @@ function App() {
     <>
       <header>
         <NavBar></NavBar>
+        <hr className="mt-8" />
         <DaisyNav></DaisyNav>
       </header>
       <main></main>
