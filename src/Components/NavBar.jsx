@@ -38,7 +38,7 @@ const NavBar = () => {
   ));
 
   return (
-    <nav className="flex justify-between mx-10 text-black ">
+    <nav className="flex justify-between mx-10 mt-10 text-black ">
       <span className="flex " onClick={() => setOpen(!open)}>
         {open ? (
           <X className="md:hidden "></X>

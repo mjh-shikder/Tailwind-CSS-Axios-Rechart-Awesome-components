@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 25,
+    "duration": "per month",
+    "description": "Perfect for beginners who want access to all gym equipment during regular hours.",
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "Free fitness assessment",
+      "Open from 9 AM - 9 PM"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Plan",
+    "price": 45,
+    "duration": "per month",
+    "description": "Ideal for fitness enthusiasts looking for extended hours and group classes.",
+    "features": [
+      "24/7 gym access",
+      "Locker & shower facility",
+      "Unlimited group fitness classes",
+      "2 personal training sessions per month",
+      "Access to yoga & Zumba studios"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Elite Plan",
+    "price": 70,
+    "duration": "per month",
+    "description": "For serious athletes who want full benefits and personalized coaching.",
+    "features": [
+      "All Premium features",
+      "Weekly personal training session",
+      "Customized diet & workout plan",
+      "Sauna & steam room access",
+      "Priority booking for special events",
+      "Free guest pass (1/month)"
+    ]
+  }
+]
