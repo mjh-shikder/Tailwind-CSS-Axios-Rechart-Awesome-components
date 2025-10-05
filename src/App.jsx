@@ -4,9 +4,12 @@ import DaisyNav from "./Components/DaisyNav";
 import NavBar from "./Components/NavBar";
 import PricingOptions from "./Components/PricingOptions";
 import ResultsChart from "./Components/ResultsChart";
+import axios from "axios";
+import MarksChart from "./Components/MarksChart";
 
 
-const pricingPromise = fetch('pricingData.json').then(res=> res.json())
+const pricingPromise = fetch('pricingData.json').then(res => res.json())
+const marksPromise = axios.get('marksData.json');
 function App() {
   return (
     <>
@@ -21,6 +24,10 @@ function App() {
         </Suspense>
 
         <ResultsChart></ResultsChart>
+
+        <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+          <MarksChart marksPromise={marksPromise}></MarksChart>
+        </Suspense>
 
       </main>
     </>
